@@ -1,17 +1,22 @@
 
 '''Reverse string using append'''
+
 str1 = input("Please Enter String : ")
 rev_str=[]
 for i in str1:
     rev_str.append(i[::-1])
     print(rev_str)
+    
 '''Reverse string using len'''
+
 str=input("string : ")
 str1=str[::-1]
 result=''
 for i in range(len(str1)-1,-1,-1):
     result=result+str1[i]
     print(result)
+    
+''' Reverse string using indexes'''
 
 s=input("string : ")
 str=s[::-1]
