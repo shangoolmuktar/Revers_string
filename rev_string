@@ -1,0 +1,4 @@
+str=input("ENter string")
+for i in range (len(str)):
+    str=str[1:]+str[0]
+    print(str)
